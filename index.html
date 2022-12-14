@@ -7,7 +7,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="icon" type="image/x-icon" href="./assets/img/icon.png" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
@@ -32,7 +31,7 @@
           <a class="navbar-brand" href="#">
             <img
               src="./assets/img/logo.png"
-              width="125"
+              width="120"
               height="40"
               class="d-inline-block align-top"
               alt=""
@@ -54,44 +53,14 @@
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a class="nav-link text-light" href="./index.html"
-                  ><b>Beranda </b><span class="sr-only">(current)</span></a
-                >
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link text-light" href="./order.html"
-                  ><b>Pesanan</b></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="./keranjang.html"
-                  ><b> Keranjang </b></a
+                  ><b> Tentang Kami </b>
+                  <span class="sr-only">(current)</span></a
                 >
               </li>
             </ul>
-            <div class="dropdown show">
-              <a
-                class="btn dropdown"
-                href="#"
-                role="button"
-                id="dropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                <img src="./assets/img/profil.png" alt="" width="40px" />
-              </a>
-
-              <div
-                class="dropdown-menu bg-primary"
-                aria-labelledby="dropdownMenuLink"
-              >
-                <a class="dropdown-item active" href="#">Profil</a>
-                <a class="dropdown-item active" href="./tentang.html"
-                  >Log Out</a
-                >
-              </div>
-            </div>
+            <form class="form-inline my-2 my-lg-0">
+              <a class="btn btn-light" href="login.html" role="button">Login</a>
+            </form>
           </div>
         </nav>
       </div>
@@ -114,359 +83,98 @@
     </section>
     <!--Akhir Jumbotron -->
 
-    <!--Awal Card-->
-    <div class="container">
-      <div class="row card-pesan">
-        <!-- card 1 -->
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <div class="p-5 kartu">
-              <img
-                class="card-img-top"
-                src="./assets/img/tenda dome.png "
-                alt="Card image cap"
-              />
-            </div>
-          </div>
-          <h5 class="card-title">Tenda Dome 2 Orang (Single Layer)</h5>
+    <!-- About -->
+    <section id="about">
+      <div class="container-fluid">
+        <div class="section">
+          <h5 class="text-center">Star <span>Camp</span></h5>
 
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-toggle="modal"
-            data-target="#exampleModal1"
-          >
-            Detail
-          </button>
-
-          <div
-            class="modal fade"
-            id="exampleModal1"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel1"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel1">
-                    Modal title
-                  </h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <center>
-                    <img
-                      class="card m-4"
-                      src="./assets/img/tenda dome.png"
-                      alt="Card image cap"
-                      width="200px"
-                    />
-                    <h6 class="card-title text-center">
-                      <b> Tenda Dome 2 Orang (Single Layer) </b>
-                    </h6>
-                    <h6 class="card-title text-center">Detail Produk</h6>
-                    <hr size="50%" color="black" />
-                    <h6 class="text-left">
-                      Harga : Rp. 35.000
-                      <b class="float-right">kelengkapan:</b>
-                    </h6>
-                    <h6 class="text-left">
-                      Stok: 20 <b class="float-right">frame+Pasak</b>
-                    </h6>
-
-                    <div class="modal-footer justify-content-center p-4">
-                      <a href="./keranjang2.html" class="btn btn-primary">
-                        Tambahkan Ke Keranjang</a
-                      >
-                    </div>
-                  </center>
-                </div>
-              </div>
+          <div class="accordion-button d-flex flex-nowrap">
+            <div class="accordion-item justify-content-center">
+              <p class="text-left">
+                STAR CAMP Adalah aplikasi penyewaan alat camping secara online
+                bagi pengguna agar bisa melakukan penyewaan alat camping dengan
+                mudah dari rumah, tidak perlu takut kehabisan stok, dan dapat
+                menikmati kebersamaan dengan keluarga /teman di alam. Product
+                perspective Star App merupakan sebuah aplikasi berbasis web yang
+                memberikan layanan tentang penyewaan alat camping. Aplikasi ini
+                akan digunakan oleh customer maupun owner pada toko penyewaan
+                alat camping yang kami pilih dan telah kami lakukan analisis
+                kebutuhan pada tahapan-tahapan sebelum pembuatan dokumen ini.
+                Melalui Star App customer dapat melihat daftar produk, memilih
+                produk, dan membuat pesanan.
+              </p>
             </div>
-          </div>
-        </div>
-        <!-- Akhir Card 1 -->
-
-        <!-- Awal Card 2 -->
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <div class="p-5 kartu">
-              <img
-                class="card-img-top"
-                src="./assets/img/tas gunung.png"
-                alt="Card image cap"
-              />
+            <div class="col-sm-4 mb-5">
+              <img src="./assets/img/1.png" class="img-fluid" alt="" />
             </div>
-          </div>
-          <h5 class="card-title">Tas Ransel Gunung Eiger Model</h5>
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-toggle="modal"
-            data-target="#exampleModal2"
-          >
-            Detail
-          </button>
-          <div
-            class="modal fade"
-            id="exampleModal2"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel2"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel2">
-                    Modal title
-                  </h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <center>
-                    <img
-                      class="card m-4"
-                      src="./assets/img/tas gunung.png"
-                      alt="Card image cap"
-                      width="200px"
-                    />
-                    <h6 class="card-title text-center">
-                      <b>Tas Ransel Gunung Eiger Model </b>
-                    </h6>
-                    <h6 class="card-title text-center">Detail Produk</h6>
-                    <hr size="50%" color="black" />
-                    <h6 class="text-left">
-                      Harga : Rp. 35.000
-                      <b class="float-right">kelengkapan:</b>
-                    </h6>
-                    <h6 class="text-left">
-                      Stok: 20 <b class="float-right">frame+Pasak</b>
-                    </h6>
-
-                    <div class="modal-footer justify-content-center p-4">
-                      <a href="./keranjang.html" class="btn btn-primary">
-                        Tambahkan Ke Keranjang</a
-                      >
-                    </div>
-                  </center>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Awal Card 3 -->
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <div class="p-5 kartu">
-              <img
-                class="card-img-top"
-                src="./assets/img/duduk.png"
-                alt="Card image cap"
-              />
-            </div>
-          </div>
-          <h5 class="card-title">Tenda Dome 2 Orang (Single Layer)</h5>
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-toggle="modal"
-            data-target="#exampleModal3"
-          >
-            Detail
-          </button>
-          <div
-            class="modal fade"
-            id="exampleModal3"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel3"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel3">
-                    Modal title
-                  </h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <center>
-                    <img
-                      class="card m-4"
-                      src="./assets/img/duduk.png"
-                      alt="Card image cap"
-                      width="200px"
-                    />
-                    <h6 class="card-title text-center">
-                      <b> Tenda Dome 2 Orang (Single Layer) </b>
-                    </h6>
-                    <h6 class="card-title text-center">Detail Produk</h6>
-                    <hr size="50%" color="black" />
-                    <h6 class="text-left">
-                      Harga : Rp. 35.000
-                      <b class="float-right">kelengkapan:</b>
-                    </h6>
-                    <h6 class="text-left">
-                      Stok: 20 <b class="float-right">frame+Pasak</b>
-                    </h6>
-                    <div class="modal-footer justify-content-center p-4">
-                      <a href="./keranjang.html" class="btn btn-primary">
-                        Tambahkan Ke Keranjang</a
-                      >
-                    </div>
-                  </center>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Akhir Card 3 -->
-
-        <!-- Awal cArd 4 -->
-        <div class="col-md-3 col-sm-6">
-          <div class="card">
-            <div class="p-5 kartu">
-              <img
-                class="card-img-top"
-                src="./assets/img/Sleeping Bag.png"
-                alt="Card image cap"
-              />
-            </div>
-          </div>
-          <h5 class="card-title">Tenda Dome 2 Orang (Single Layer)</h5>
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-toggle="modal"
-            data-target="#exampleModal4"
-          >
-            Detail
-          </button>
-          <div
-            class="modal fade"
-            id="exampleModal4"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel4"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel4">
-                    Modal title
-                  </h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <center>
-                    <img
-                      class="card m-4"
-                      src="./assets/img/Sleeping Bag.png"
-                      alt="Card image cap"
-                      width="200px"
-                    />
-                    <h6 class="card-title text-center">
-                      <b> Tenda Dome 2 Orang (Single Layer) </b>
-                    </h6>
-                    <h6 class="card-title text-center">Detail Produk</h6>
-                    <hr size="50%" color="black" />
-                    <h6 class="text-left">
-                      Harga : Rp. 35.000
-                      <b class="float-right">kelengkapan:</b>
-                    </h6>
-                    <h6 class="text-left">
-                      Stok: 20 <b class="float-right">frame+Pasak</b>
-                    </h6>
-                    <div class="modal-footer justify-content-center p-4">
-                      <a href="./pesanan.html" class="btn btn-primary"
-                        >Tambah Produk</a
-                      >
-                      <a href="./keranjang.html" class="btn btn-primary">
-                        Masukkan Ke Keranjang</a
-                      >
-                    </div>
-                  </center>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Akhir Card 4 -->
-      </div>
-    </div>
-    <!-- akhir card8 -->
-
-    <!-- Kontak -->
-    <section id="contact">
-      <div class="container kontak">
-        <div class="row mb-3 text-center fw-bold">
-          <div class="col">
-            <h2>Kontak</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-5 mb-3">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="name"
-                  aria-describedby="name"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  aria-describedby="email"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Kirim</button>
-            </form>
           </div>
         </div>
       </div>
     </section>
+    <!-- Akhir About -->
+    <!-- ======= Team Section ======= -->
 
-    <!-- Akhir Kontak -->
+    <div class="container-fluid about">
+      <h5 class="text-center text-light p-4">Tentang Kami</h5>
+
+      <div class="row card-pesan justify-content-center">
+        <div class="col-md-2 col-sm-6">
+          <div class="card">
+            <div class="p-4 kartu">
+              <img
+                class="card-img-top p-3"
+                src="./assets/img/habib.png"
+                alt="Card image cap"
+              />
+              <font size="1"><b> Habib Aditya Julianto </b></font><br />
+              <font size="1"><b> 2000016047 </b></font><br />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <div class="card">
+            <div class="p-4 kartu">
+              <img
+                class="card-img-top p-3"
+                src="./assets/img/sywl.png"
+                alt="Card image cap"
+              />
+              <font size="1"><b>Syawal Saputra</b></font
+              ><br />
+              <font size="1"><b>2011016065</b></font
+              ><br />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-6">
+          <div class="card">
+            <div class="p-4 kartu">
+              <img
+                class="card-img-top p-3"
+                src="./assets/img/nizar.png"
+                alt="Card image cap"
+              />
+              <font size="1"><b>Muh. Nizar</b></font
+              ><br />
+              <font size="1"><b>2000016111</b></font
+              ><br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Team Section -->
+
+    <!-- Footer -->
+
+    <div class="footer-center">
+      <div class="copyright text-center p-3 text-light bg-primary">
+        &copy; Copyright <strong><span>Star Camp</span></strong> All Crew
+      </div>
+    </div>
+
+    <!-- Akhir footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
