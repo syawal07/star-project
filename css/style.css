@@ -1,5 +1,6 @@
 body {
-  background-color:aliceblue;
+  /* background-color:aliceblue; */
+ background-image: url('../assets/img/bgcamp.png');
   font-family: 'poppins','sans-serif';
 }
 
@@ -50,11 +51,15 @@ body {
 }
 
 .order{
-  margin: 200px;
+ margin: 200px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .keranjang{
   margin: 200px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .about{
